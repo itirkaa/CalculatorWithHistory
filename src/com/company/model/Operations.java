@@ -1,7 +1,7 @@
 package com.company.model;
 
-
-public class Operations {
+// using abstract class
+public abstract class Operations {
     protected double num1;
     protected double num2;
     protected int operator;
@@ -18,25 +18,13 @@ public class Operations {
         this.operator = operator;
     }
 
-    public double add(){
-        return 0;
-    }
-    public double sub(){
-        return 0;
-    }
-    public double mul(){
-        return 0;
-    }
-    public double div(){
-        return 0;
-    }
+    abstract public double add();
+    abstract public double sub();
+    abstract public double mul();
+    abstract public double div();
 
-    public boolean checkPrime(){
-        return true;
-    }
-    public boolean isDivisor(){
-        return true;
-    }
+    abstract public boolean checkPrime();
+    abstract public boolean isDivisor();
 
     public double getNum1() {
         return num1;

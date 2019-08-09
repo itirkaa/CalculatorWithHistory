@@ -25,4 +25,12 @@ public class NormalOperations extends Operations {
         result = num1 / num2;
         return result;
     }
+
+    public boolean checkPrime() {
+        return false;
+    }
+
+    public boolean isDivisor() {
+        return false;
+    }
 }

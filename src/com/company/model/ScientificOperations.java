@@ -8,6 +8,22 @@ public class ScientificOperations extends Operations {
         super(num1, num2, operator);
     }
 
+    public double add() {
+        return 0;
+    }
+
+    public double sub() {
+        return 0;
+    }
+
+    public double mul() {
+        return 0;
+    }
+
+    public double div() {
+        return 0;
+    }
+
     public boolean checkPrime(){
         boolean flag = true;
         if (this.num1%2==0 && this.num1>=2)
