@@ -1,9 +1,15 @@
 package com.company.model;
 
-public class NormalOperations extends Operations {
+public class NormalOperations implements IOperations {
+    double num1 = 0;
+    double num2 = 0;
+    int operator = 0;
+    double result= 0;
 
     public NormalOperations(double num1, double num2, int operator){
-        super(num1, num2, operator);
+        this.num1 = num1;
+        this.num2 = num2;
+        this.operator = operator;
     }
 
     public double add(){
@@ -32,5 +38,21 @@ public class NormalOperations extends Operations {
 
     public boolean isDivisor() {
         return false;
+    }
+
+    public double getNum1() {
+        return num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+
+    public double getResult() {
+        return result;
+    }
+
+    public int getOperator() {
+        return operator;
     }
 }

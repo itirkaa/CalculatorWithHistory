@@ -1,11 +1,19 @@
 package com.company.model;
 
-public class ScientificOperations extends Operations {
+public class ScientificOperations implements IOperations {
+    double num1 = 0;
+    double num2 = 0;
+    int operator = 0;
+    double result= 0;
+
     public ScientificOperations(double num1, int operator){
-        super(num1, operator);
+        this.num1 = num1;
+        this.operator = operator;
     }
     public ScientificOperations(double num1, double num2, int operator){
-        super(num1, num2, operator);
+        this.num1 = num1;
+        this.num2 = num2;
+        this.operator = operator;
     }
 
     public double add() {
@@ -44,5 +52,21 @@ public class ScientificOperations extends Operations {
         if(this.num1%num2!=0)
             flag = false;
         return flag;
+    }
+
+    public double getNum1() {
+        return num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+
+    public double getResult() {
+        return result;
+    }
+
+    public int getOperator() {
+        return operator;
     }
 }

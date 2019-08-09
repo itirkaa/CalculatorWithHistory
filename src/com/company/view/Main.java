@@ -1,9 +1,10 @@
 package com.company.view;
 
+import com.company.model.IOperations;
 import com.company.model.NormalOperations;
-import com.company.model.Operations;
+//import com.company.model.IOperations;
 import com.company.model.ScientificOperations;
-import com.company.controller.getHistory;
+//import com.company.controller.getHistory;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Operations [] calculate = new Operations[10];
+        IOperations [] calculate = new IOperations[10];
         int index = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("CALCULATOR");
@@ -67,7 +68,7 @@ public class Main {
                     System.out.println("invalid operation!!");
             }
 
-            System.out.println("Do you want to continue?? 1");
+            System.out.println("Do you want to continue?? 1 to continue");
             int response = scanner.nextInt();
             if(response==1) {
                 System.out.println("1. Do more calculations.");
@@ -80,12 +81,12 @@ public class Main {
 
             if(response==2){
                 while(true) {
-                    System.out.println("Enter 0 to check previous operation /*and 1 to check next operation/*");
-                    //TODO: add check history function
-                    response = scanner.nextInt();
-                    getHistory history = new getHistory();
-                    Operations printHistory = history.getHistory(calculate, response);
-                    System.out.println(printHistory.getNum1()+","+printHistory.getNum2()+","+printHistory.getResult());
+//                    System.out.println("Enter 0 to check previous operation /*and 1 to check next operation/*");
+//                    //TODO: add check history function
+//                    response = scanner.nextInt();
+//                    getHistory history = new getHistory();
+//                    IOperations printHistory = history.getHistory(calculate, response);
+//                    System.out.println(printHistory.getNum1()+","+printHistory.getNum2()+","+printHistory.getResult());
 
                     System.out.println("Do you want to continue?? 1");
                     response = scanner.nextInt();

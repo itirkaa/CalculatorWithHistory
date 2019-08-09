@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7686672d-15dd-4b06-a8bb-d896833dced7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/IOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calculator/META-INF/Calculator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/controller/getHistory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/model/NormalOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/company/model/NormalOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/model/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/company/model/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/model/Operations.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/model/ScientificOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/company/model/ScientificOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/company/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controller/getHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/controller/getHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/NormalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/NormalOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Operations.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/ScientificOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/ScientificOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
